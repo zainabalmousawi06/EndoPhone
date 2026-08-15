@@ -1,3 +1,4 @@
+import 'package:endophone/pages/home_page.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -10,13 +11,20 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      home: Scaffold(
-        backgroundColor: const Color.fromARGB(255, 34, 89, 55),
-        appBar: AppBar(
-          
-
+      debugShowCheckedModeBanner: false,
+      home: HomePage(),
+      theme: ThemeData(
+        useMaterial3: true,
+        appBarTheme: AppBarTheme(
+          titleTextStyle: TextStyle(
+            fontFamily: 'LexendGiga',
+            fontSize: 15,
+            letterSpacing:1.5,
+            fontWeight: FontWeight.bold,
+            color: const Color.fromARGB(255, 145, 113, 86),
+          )
         )
-      )
+      ),  
     );
      
   }
