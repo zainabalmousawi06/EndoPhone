@@ -1,7 +1,10 @@
 import 'package:endophone/pages/home_page.dart';
 import 'package:flutter/material.dart';
+import 'services/audio_service.dart';
 
-void main() {
+Future<void> main() async{
+  WidgetsFlutterBinding.ensureInitialized();
+  await AudioService.instance.init();
   runApp(const MyApp());
 }
 
