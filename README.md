@@ -1,17 +1,14 @@
-# endophone
+# Endophone
 
-A new Flutter project.
+An app to help with pain relief during endometriosis flare-ups.
 
-## Getting Started
+## Key Features
+- Breathing exercise widget
+- Positions and stretches gallery
+- Nature soundscape: choose from the default options or make your own
+- Games: Tetris
+- Save your favorite easy food recipes, with instructions for which foods to avoid
+- Add a phone number for quick dial
+- A diary to log what helped and what didn't during each flare-up
 
-This project is a starting point for a Flutter application.
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
