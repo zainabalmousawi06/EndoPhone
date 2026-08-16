@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-
+import 'package:endophone/pages/breathing_screen.dart';
 
 class HomePage extends StatefulWidget {
   const HomePage({super.key});
@@ -36,12 +36,11 @@ class _HomePageState extends State<HomePage> {
           ),
 //
         SliverToBoxAdapter(
-          child: Container(
-            height: 1000,
-            color: const Color.fromARGB(255, 91, 106, 59),
+          child: Padding(
+            padding: EdgeInsets.all(16),
+            child:BreathingScreen(),
           ),
         )
-          
         ],
 
       )
